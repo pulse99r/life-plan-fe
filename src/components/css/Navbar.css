@@ -1,0 +1,32 @@
+nav{
+  background-color: rgb(196, 138, 138);
+}
+nav section {
+  border-bottom: 1px solid gray;
+}
+.category-section {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+}
+
+.category-section h6{
+  margin-left: 15px;
+}
+.category-section h6:hover{
+  color: rgb(232, 135, 9);
+  cursor: pointer;
+  text-decoration: underline;
+}
+section h1{
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+/* .category-section:nth-child(3){
+  align-items: flex-end;
+} */
