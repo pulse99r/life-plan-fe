@@ -1,19 +1,19 @@
-
-import '../components/css/Navbar.css'
+import React from 'react'
+import { useState } from 'react';
 import Slider from './slider';
-import { useState, useEffect } from 'react';
+import '../components/css/Navbar.css'
 
 function Navbar() {
 
   const [slideDir, setSlideDir] = useState('sign-up')
   const [containerPosition, setContainerPosition] = useState([])
 
-  const handleHover = () =>{
+  const handleHover = (e) =>{
     console.log('mouseover event occurred!')
-    // e.preventDefault()
-    // // setSlideDir(e.target.getAttribute('className') === 'sign-up' ?  true : false) 
-    // setSlideDir(e.target.getAttribute('className') === 'sign-up' ?  'slide-left' : 'slide-right') 
-    // return setContainerPosition.children[0].setAttribute('className', slideDir ? 'slide-left' : 'slide-right')
+    e.preventDefault()
+    // setSlideDir(e.target.getAttribute('className') === 'sign-up' ?  true : false) 
+    setSlideDir(e.target.getAttribute('className') === 'sign-up' ?  'slide-left' : 'slide-right') 
+    return setContainerPosition.children[0].setAttribute('className', slideDir ? 'slide-left' : 'slide-right')
   }
 
   return (

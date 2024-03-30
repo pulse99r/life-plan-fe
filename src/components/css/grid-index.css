@@ -1,0 +1,24 @@
+td {
+  border: 1px solid black;
+  font-size: 8px;
+  height: 12px;
+  width: 12px;
+}
+.main{
+  display: flex;
+}
+.main__input{
+  display: flex;
+  flex-direction: column;
+}
+.main__form{
+  display: flex;
+}
+input{
+  font-size: 10px;
+  height: 10px;
+  width: 85px;
+}
+input, button {
+  margin-left:5px;
+}
