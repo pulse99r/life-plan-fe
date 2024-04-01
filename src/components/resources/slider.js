@@ -1,16 +1,17 @@
 
 import React from 'react'
-import './css/slider.css'
+import '../css/slider.css'
 
 const Slider = () => {
   
 
   return (
-    <div className="container">
-      <div className="slide-right"></div>
-      <div className="sign-up">Sign Up</div>
-      <div className="log-in">Log in</div>
-    </div>
+    <div></div>
+    // <div className="container">
+    //   <div className="slide-right"></div>
+    //   <div className="sign-up">Sign Up</div>
+    //   <div className="log-in">Log in</div>
+    // </div>
   )
 }
 

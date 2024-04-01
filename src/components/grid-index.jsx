@@ -2,18 +2,6 @@ import React, { useState } from 'react';
 import './css/grid-index.css'
 import RowColumnIdx from './row-column-idx'
 
-/*
-  create a state variable for td
-  tableData = []
-  [tableData, setTableData] = useState([])
-
-  function addRow = () => {
-    const newRow = {id: tableData.length+1, date: "today"}
-    setTableData([...tableData,newRow])
-  }
-  
-  function 
-*/
 export default function GridIndex(props) {
 
   const [tableData, setTableData] = useState([])

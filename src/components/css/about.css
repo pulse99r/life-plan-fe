@@ -1,0 +1,16 @@
+.about {
+  background-color: rgb(181, 213, 213);
+  padding: 5px 5% 5% 5px;
+  margin: auto;
+  width: 90%;
+}
+.item {
+  font-weight: 700;
+  margin-right: 5px;
+}
+.smaller {
+  font-size: smaller;
+}
+.ital {
+  font-style: italic;
+}
