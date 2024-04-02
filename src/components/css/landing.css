@@ -1,0 +1,17 @@
+.landing {
+  background-color: rgb(181, 213, 213);
+  margin: auto;
+  text-align: center;
+}
+.landing__header {
+  display: flex;
+  font-size: 2em;
+}
+.landing__logo {
+  display: flex;
+  flex-direction: row;
+}
+.landing__title {
+  display: inline-block;
+  font-size: 2.5em;
+}

@@ -1,0 +1,25 @@
+.name{
+  font-size: 1.2em;
+  margin: 0 5px;
+}
+.people-container {
+  display: flex;
+}
+.card {
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 5px gray;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  /* justify-content: center; */
+  margin: 10px auto;
+  width: 220px;
+}
+.email {
+  font-size: smaller;
+}
+img {
+  width: 150px;
+}
