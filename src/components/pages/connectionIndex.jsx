@@ -1,7 +1,8 @@
 
 import React, { useState, useEffect } from 'react'
 import People from '../resources/people';
-
+import '../css/connectionIndex.css'
+import NewPerson from '../sandbox/new-person'
 
 const ConnectionIndex = () => {
   const [ users, setUsers] = useState([])
@@ -14,16 +15,22 @@ const ConnectionIndex = () => {
     // .then(data => console.log(data))
   }, [])
  
-  console.log("users: ", users)
+  // console.log("users: ", users)
 
   return (
-    <div>
-      This is the connections page
-      <div>
+    <div className='connections-box'>
+      <section className='connections-box__people'>
         {users.map((person) => {
-          return (<People key={person.id} person={person}/>)
+          let id = person.id
+         return (<div >
+            <People key={id} person={person}/> 
+          </div>)
         })}
-      </div>
+      </section>
+      <section className='connections-box__new-person'>
+        <NewPerson/>
+      </section>
+      
     </div>
   )
 }

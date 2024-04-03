@@ -1,0 +1,12 @@
+.connections-box {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.connections-box__people {
+  width: 50%;
+} 
+ .connections-box__new-person {
+  width: 30%;
+} 
