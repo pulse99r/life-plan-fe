@@ -1,6 +1,7 @@
 .new-person {
+  background-color: aquamarine;
   border: 2px solid rgb(124, 119, 119);
-  border-radius: 5px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   margin: 10px;
@@ -15,7 +16,13 @@
 .new-person__button {
   align-self: center;
   border-radius: 8px;
-  box-shadow: 2px 3px rgb(83, 80, 80);
+  box-shadow: 2px 4px rgb(83, 80, 80);
   height: 40px;
   width: 98%;
+}
+
+.new-person__button:hover {
+  color: rgb(234, 113, 7);
+  cursor: pointer;
+  box-shadow: 2px 2px rgb(83, 80, 80) inset;
 }

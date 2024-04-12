@@ -2,12 +2,12 @@
   /* font-size: 1.2em; */
   margin: 0 15px;
   padding: 0;
-  
+  width: 70px;
 }
 .card-container {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 120%;
 }
 .card {
   align-items: center;
@@ -21,6 +21,9 @@
   margin: 10px auto;
   width: 220px;
 }
-/* .email {
+.email {
+  align-self: center;
   font-size: smaller;
-} */
+  justify-self: center;
+  width: 300px;
+}

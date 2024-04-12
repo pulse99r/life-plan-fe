@@ -7,9 +7,9 @@ function Navbar() {
 
   return (
     <nav>
-      <section className='main'>
+      {/* <section className='main'>
         <h1>Life Plan</h1>
-      </section>
+      </section> */}
       <section className='category-section'>
       
         <h6 className="navbar__item">About</h6>
