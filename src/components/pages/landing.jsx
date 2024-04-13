@@ -2,23 +2,23 @@ import React from 'react';
 import '../css/landing.css'
 import Navbar from './navbar'
 import centralPark from '../img/central-park.jpg'
+import logo from '../img/IMG_3586.jpg'
+import PageHeader from './page-header.jsx'
 
 function Landing() {
 
   return (
     <div className='landing'>
-      <section className='landing__header'>
-        <span className='landing__logo'>Logo</span>
-        <span className='landing__title'>Life Plan</span>
-      </section>
+
+      <PageHeader/>
       <section className='category-section'>
         <Navbar/>
       </section>
       <section className='landing-img-container'>
         <img src={centralPark} alt="Central Park" className='landing-img'/>
         <div className='landing-img__text'>
-          <p className='blurb'>This really is 4 <strong>your</strong> life</p>
-          <p className='cta'>Take Control</p>
+          <p className='blurb'>This really <strong>is </strong>your life</p>
+          <p className='cta'>Take Control!</p>
         </div>
       </section>
       <section className='landing__info'>

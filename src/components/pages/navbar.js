@@ -1,6 +1,6 @@
 
 import React from 'react';
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../css/Navbar.css'
 
 function Navbar() {
@@ -12,6 +12,8 @@ function Navbar() {
         <h6 className='navbar__item'>My Plans</h6>
         <h6 className='navbar__item'>Connections</h6>
         <h6 className='navbar__item'>Resources</h6>
+        <h6 className='navbar__item'>Ads</h6>
+        <h6 className='navbar__item'>Marketplace</h6>
         <span className='right-side'>
           <span className='navbar__item email-icon'>mail icon</span>
           <span className='navbar__item alert-icon'>alert icon</span>

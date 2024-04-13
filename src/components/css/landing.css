@@ -4,18 +4,6 @@
   text-align: center;
   height: 100vh;
 }
-.landing__header {
-  display: flex;
-  font-size: 2em;
-}
-.landing__logo {
-  display: flex;
-  flex-direction: row;
-}
-.landing__title {
-  display: inline-block;
-  font-size: 2.5em;
-}
 .landing-img {
   border-radius: 8px;
   margin: 20px 0 5px 0;
@@ -23,17 +11,17 @@
 }
 .landing-img__text .blurb {
   color: rgb(219, 247, 115);
-  font-size: 3em;
-  left: 45%;
+  font-size: 63px;
+  left: 30%;
   position: absolute;
-  top: 25%;
+  top: 38%;
 }
 .landing-img__text .cta {
   color: rgb(219, 247, 115);
   font-size: 3em;
-  left: 47%;
+  left: 43%;
   position: absolute;
-  top: 35%;
+  top: 48%;
 }
 
 .landing__info__group {
