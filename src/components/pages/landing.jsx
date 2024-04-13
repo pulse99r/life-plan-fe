@@ -17,7 +17,7 @@ function Landing() {
       <section className='landing-img-container'>
         <img src={centralPark} alt="Central Park" className='landing-img'/>
         <div className='landing-img__text'>
-          <p className='blurb'>It really is <strong>your</strong> life</p>
+          <p className='blurb'>This really is 4 <strong>your</strong> life</p>
           <p className='cta'>Take Control</p>
         </div>
       </section>
