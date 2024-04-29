@@ -1,27 +1,42 @@
 .landing {
   background-color: rgb(181, 213, 213);
+  display: flex;
+  flex-direction: column;
   margin: auto;
   text-align: center;
-  height: 100vh;
+  height: 120vh;
+}
+.landing-img__container {
+  position: relative;
+  /* top: 30vh; */
+  margin: auto;
 }
 .landing-img {
   border-radius: 8px;
   margin: 20px 0 5px 0;
+  width: 50%;
+}
+.landing-img__text {
+  background-color: bisque;
+  position: absolute;
+  left: 25%;
+  top: 15%;
   width: 45%;
+  margin: auto;
 }
 .landing-img__text .blurb {
-  color: rgb(219, 247, 115);
-  font-size: 63px;
+  color: rgb(188, 207, 119);
+  font-size: 40px;
   left: 30%;
   position: absolute;
-  top: 38%;
+  top: 18%;
 }
 .landing-img__text .cta {
   color: rgb(219, 247, 115);
-  font-size: 3em;
+  font-size: 1em;
   left: 43%;
   position: absolute;
-  top: 48%;
+  top: 28%;
 }
 
 .landing__info__group {

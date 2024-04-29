@@ -13,17 +13,15 @@ function App() {
 
   return (
     <BrowserRouter>
-    <Routes>
-        <Route path="/" element={<Landing/>} ></Route>
-        <Route path="/login" element={<Login/>} ></Route>
-        <Route path="/about" element={<About/>} ></Route>
-        <Route path="/home" element={<Home/>} ></Route>
-        <Route path="/connections" element={<ConnectionIndex/>} ></Route>
-
-    </Routes>
       <div className="App">
-     
-        <footer className="App-footer">&copy; 2024 - This is the footer</footer>
+        <Routes>
+          <Route path="/" element={<Landing/>} ></Route>
+          <Route path="/login" element={<Login/>} ></Route>
+          <Route path="/about" element={<About/>} ></Route>
+          <Route path="/home" element={<Home/>} ></Route>
+          <Route path="/connections" element={<ConnectionIndex/>} ></Route>
+        </Routes>
+        <footer className="app-footer">&copy; 2024 - This is the footer</footer>
       </div>
     </BrowserRouter>
   );

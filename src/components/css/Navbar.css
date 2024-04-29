@@ -1,26 +1,33 @@
 nav{
-  background-color: rgb(196, 138, 138);
+  /* border: 2px solid blue; */
   color: rgb(105, 103, 103);
-  margin: auto;
+  margin: 2px auto auto;
   text-align: center;
-  width: 80%;
+  width: 100%;
 }
 
 .category-section {
+  /* border: 2px solid rgb(0, 255, 106); */
   background-color: rgb(164, 236, 212);
   display: flex;
   align-items: center;
+  margin:auto;
+  width: 90%;
 }
 
-.category-section h6{
-  margin-right: 15px;
-  padding: 10px 5px;
+.navbar__item{
+  background-color: rgba(0,0,0, .1);
+  /* border-radius: 4px; */
+  font-size: 8px;
+  margin-right: 10px;
+  padding: 5px 5px;
 }
 
 .right-side {
+  border: 2px solid;
   display: flex;
   font-size: 12px;
-  left: 60%;
+  right: 1px;
   justify-self: flex-end;
   position: relative;
 }
@@ -44,7 +51,6 @@ nav{
 .navbar__item:hover {
   color: black;
   cursor: pointer;
-  /* text-decoration: underline; */
   border-bottom: 2px black solid;
   padding-bottom: 5px;
 }

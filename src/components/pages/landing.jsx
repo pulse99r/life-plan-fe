@@ -9,12 +9,9 @@ function Landing() {
 
   return (
     <div className='landing'>
-
       <PageHeader/>
-      <section className='category-section'>
-        <Navbar/>
-      </section>
-      <section className='landing-img-container'>
+      <Navbar/>
+      <section className='landing-img__container'>
         <img src={centralPark} alt="Central Park" className='landing-img'/>
         <div className='landing-img__text'>
           <p className='blurb'>This really <strong>is </strong>your life</p>
